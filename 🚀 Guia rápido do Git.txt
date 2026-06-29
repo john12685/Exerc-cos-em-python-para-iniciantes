@@ -1,0 +1,52 @@
+🚀 Guia rápido do Git
+1. Criar ou clonar repositório
+git init → cria um novo repositório vazio
+
+git clone <url> → copia um repositório existente para sua máquina
+
+2. Trabalhar com arquivos
+git status → mostra o que mudou e o que está pronto para commit
+
+git add <arquivo> → adiciona arquivos ao “stage” (preparar para commit)
+
+git rm <arquivo> → remove arquivos do repositório
+
+git mv <antigo> <novo> → renomeia ou move arquivos
+
+3. Salvar alterações
+git commit -m "mensagem" → registra as mudanças no histórico
+
+git log → mostra o histórico de commits
+
+git diff → mostra diferenças entre versões
+
+4. Trabalhar com branches
+git branch → lista branches
+
+git branch <nome> → cria uma nova branch
+
+git switch <nome> → muda para outra branch
+
+git merge <branch> → junta alterações de outra branch
+
+5. Colaboração
+git fetch → baixa atualizações do repositório remoto (sem aplicar)
+
+git pull → baixa e aplica atualizações do remoto
+
+git push → envia suas alterações para o remoto
+
+🔑 Fluxo básico do dia a dia
+Clonar ou iniciar: git clone <url> ou git init
+
+Editar arquivos normalmente
+
+Ver status: git status
+
+Adicionar: git add <arquivo>
+
+Commitar: git commit -m "mensagem clara"
+
+Enviar: git push
+
+👉 Dica: sempre escreva mensagens de commit curtas e descritivas, como "corrige bug no login" ou "adiciona página de contato".
